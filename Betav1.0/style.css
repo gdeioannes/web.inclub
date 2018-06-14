@@ -58,7 +58,7 @@ body a
 
 body a:hover
 {
-    color: #FFF; 
+    color: #CCC; 
 }
 
 body p, body pre
@@ -1863,22 +1863,21 @@ body .social a
 
 .contact-page-left 
 {
-    background-color: #5f1ab4;
+    background-color: #777;
     width: calc(50% - 140px);
     height: calc(100% - 200px);
     float: left;
     padding: 100px 70px;
     color: #fff;
     position: absolute;
-    border-radius: 50px 0 0 50px;
 }
 
 .contact-page-right 
 {
     width: calc(50% - 140px);
     height: calc(100% - 200px);
-    float: left;
-    padding: 50px;
+    float: right;
+    padding: 100px 70px;
     background-color: #fff;
 }
 
@@ -2334,7 +2333,6 @@ li.social-footer a:first-child
         width: 80%;
         height: auto;
         padding: 10% 10% 3% 10%;
-        border-radius: 50px 50px 0 0;
         text-align: center;
     }
 
@@ -2343,7 +2341,6 @@ li.social-footer a:first-child
         float: none;
         width: 80%;
         height: auto;
-        border-radius: 0 0 50px 50px;
         padding: 10%;
     }
 
@@ -2715,7 +2712,7 @@ _____________________*/
     color: white;
     padding: 30px !important;
     font-weight: 600;
-    font-size: 35px;
+    font-size: 28px;
     hyphens: none;
     line-height: 0.9;
     width: 65%;
@@ -2768,8 +2765,9 @@ _____________________*/
 }
 
 .p-important-inclub{
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 26px;
+    font-weight: 500;
+    text-align: center !important;
 }
 
 .p-center-inclub{
@@ -2777,9 +2775,14 @@ _____________________*/
 }
 
 .p-bold-inclub{
-    font-weight: 300;
+    font-weight: 500;
     font-size: 22px;
     text-align: center;
+}
+
+.bold-inclub{
+    font-weight: 500;
+    font-size: 16px;
 }
 
 .service-container{
@@ -2884,4 +2887,14 @@ margin-bottom: -120px% !important;
     font-size: 9px;
     font-weight: 200;
     margin-bottom: 0px;
+}
+
+.effect-rotate{
+-webkit-transition: -webkit-transform .8s ease-in-out;
+  transition:transform .8s ease-in-out;
+}
+
+.effect-rotate:hover {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
