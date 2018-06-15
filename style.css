@@ -2607,6 +2607,10 @@ li.social-footer a:first-child
 
 @media screen and (max-width: 630px) 
 {  
+    .header-image-info{
+        font-size: 23px !important;    
+    }
+    
     .curve-text
     {
         font-size: 90px;
@@ -2712,9 +2716,8 @@ _____________________*/
     color: white;
     padding: 30px !important;
     font-weight: 600;
-    font-size: 26px ;
-    hyphens: auto;
-    hyphens: auto;
+    font-size: 25px ;
+    hyphens: none;
     line-height: 0.9;
     width: 65%;
     margin: auto;
