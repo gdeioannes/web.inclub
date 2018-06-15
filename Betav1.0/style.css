@@ -713,7 +713,7 @@ a.button.scroll:hover:after
 
 h5.service-title 
 {
-    font-weight: 400;
+    font-weight: 600;
     color: #000;
     font-size: 22px;
     padding-top: 0;
@@ -2776,7 +2776,7 @@ _____________________*/
 
 .p-bold-inclub{
     font-weight: 500;
-    font-size: 22px;
+    font-size: 18px !important;
     text-align: center;
 }
 
