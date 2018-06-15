@@ -2712,8 +2712,8 @@ _____________________*/
     color: white;
     padding: 30px !important;
     font-weight: 600;
-    font-size: 28px;
-    hyphens: none;
+    font-size: 26px ;
+    hyphens: auto;
     line-height: 0.9;
     width: 65%;
     margin: auto;
