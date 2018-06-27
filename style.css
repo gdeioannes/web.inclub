@@ -599,6 +599,20 @@ a.button.scroll:hover:after
     margin-bottom: 50px;
 }
 
+h1{
+    text-align: left;
+    font-size: 18px;
+    line-height: 34px;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: #D22084;
+    display: table;
+    margin: 0 auto;
+    padding: 5px 30px 5px 35px;
+    margin-bottom: 50px;
+}
+
 .section .page-description
 {
     text-align: center;
@@ -1584,17 +1598,17 @@ body .social a
 
 .single h1.entry-title
 {
-    color: #221c5a;
+    text-align: left;
+    font-size: 18px;
+    line-height: 34px;
+    color: #FFF;
+    text-transform: uppercase;
     font-weight: 600;
-    font-size: 40px;
-    line-height: 50px;
-    margin-bottom: 10px;
-    -ms-word-wrap: break-word;
-    word-wrap: break-word;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    padding-top: 100px;
+    background-color: #D22084;
+    display: table;
+    margin: 0 auto;
+    padding: 5px 30px 5px 35px;
+    margin-bottom: 50px;
 }
 
 .single .has-post-thumbnail h1.entry-title
@@ -2744,9 +2758,9 @@ _____________________*/
     display: block;
 }
 
-.one_half h2{
+.one_half h2,h1{
     width: 100%;
-    margin-left: 40px;
+    
     box-sizing: border-box;
     padding: 15px !important;
     font-size: 22px !important;
@@ -2755,7 +2769,6 @@ _____________________*/
 
 .inclub-h2{
     width: 100%;
-    margin-left: 40px;
     box-sizing: border-box;
     padding: 15px !important;
     font-size: 22px !important;
